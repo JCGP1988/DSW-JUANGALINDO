@@ -1,0 +1,29 @@
+header{
+    background-color: cornflowerblue;
+    padding: 25px;
+}
+nav{
+    background-color: dimgrey;
+    color: white;
+    padding: 15px;
+}
+section{
+    float: left;
+    width: 65%;
+    background-color: floralwhite;
+}
+aside{
+    float: left;
+    width: 35%;
+    background-color: cornflowerblue;
+}
+footer{
+    background-color: lightblue;
+    padding: 15px;
+}
+.contenido::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+    
